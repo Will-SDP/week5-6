@@ -47,6 +47,7 @@ section h2, p {
 .section-content {
     width: 90%;
     margin: 0 auto;
+    height: 100%;
 }
 
 #about, #boats {
@@ -70,13 +71,13 @@ section h2, p {
 
 .child-left {
     float: left;
-    border-left: 3px solid #8e44ad;
+    border-left: 3px solid #34495e;
     
 }
 
 .child-right {
     float: right;
-    border-right: 3px solid #8e44ad;
+    border-right: 3px solid #ecf0f1;
     text-align: right;
 }
 
