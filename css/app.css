@@ -75,6 +75,7 @@ section h2, p {
     }
     .section {
         width: 100%;
+        height: auto;
     }
 }
 
