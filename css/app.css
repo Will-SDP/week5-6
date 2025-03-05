@@ -76,11 +76,20 @@ h3, p {
     }
     .section-content {
         width: 100%;
+        display: flex;
+        flex-direction: column;
     }    
     .section-card {
         width: 100%;
         float: none; /* Remove float to stack elements */
         display: block;
+    }
+    .section-card img {
+        order: 2; /* Move images to come after text */
+    }
+
+    .section-card:not(:has(img)) {
+        order: 1; /* Ensure text content stays first */
     }
 
 }
