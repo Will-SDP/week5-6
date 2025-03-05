@@ -60,10 +60,22 @@ section h2, p {
     color: #ecf0f1;;
 }
 
+
+
 .section-card {
     height: 100%;
     width: 50%;
     float: left;
+}
+
+@media screen and (max-width: 768px) {
+    .section-card {
+        width: 100%;
+        float: none; /* Remove float to stack elements */
+    }
+    .section {
+        width: 100%;
+    }
 }
 
 .section-card img {
