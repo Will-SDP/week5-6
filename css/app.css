@@ -50,36 +50,29 @@ section h2, p {
     height: 100%;
 }
 
-#about, #boats {
+.light {
     background-color:  #ecf0f1;
 
 }
 
-#dogs {
+.dark {
     background-color: #34495e;
     color: #ecf0f1;;
 }
 
-
-.child {
-    display: block; 
-    width: 100%;
+.section-card {
     height: 100%;
-
-
-}
-
-.child-left {
+    width: 50%;
     float: left;
-    border-left: 3px solid #34495e;
-    
 }
 
-.child-right {
-    float: right;
-    border-right: 3px solid #ecf0f1;
-    text-align: right;
+.section-card img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+      
 }
+
 
 footer {
     height: 150px;
