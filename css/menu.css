@@ -17,7 +17,6 @@ nav, #menu i {
     bottom: 0;
     z-index: 10;
     position: absolute;
-    /* display: none; */
     border-right: 2px solid #8e44ad;
     transition: 0.5s;
 }
@@ -25,8 +24,19 @@ nav, #menu i {
 #menu a {
     display: block;
     padding: 10px;
+    text-decoration: none;
+    color: #ecf0f1;
+}
+
+#menu a:hover {
+    background-color: #8e44ad;
 }
 
 .hide {
     transform: translate(-252px);
+}
+
+nav div {
+    width: 90%;
+    margin: 0 auto;
 }
