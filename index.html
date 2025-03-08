@@ -3,21 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">    
     <link rel="stylesheet" href="./css/app.css">
-    <title>Week 1 | 1.10</title>
+    <link rel="stylesheet" href="./css/menu.css">
+    <title>Apollo Missions</title>
 </head>
 <body>
-    <header>
-        <h1>Discussion Week 1.10 - Noteable Apollo Missions</h1>
-    </header>
+    <div id="menu" class="hide">
+        <i class="fa fa-times fa-2x" aria-hidden="true" onclick="toggle_menu()"></i>
+        <a href="/"><i class="fa fa-home fa-2x" aria-hidden="true"></i> Home</a>
+        <a href="https://week1.coups.dev"><i class="fa fa-clock-o fa-2x" aria-hidden="true"></i> Earlier discussion</a>
+    </div>    
     <nav>
-        <div id=nav-content>
-            <a href="/">Home</a>
-            <a href="https://week1.coups.dev">Earlier discussion</a>
-        </div>
+        <i class="fa fa-bars fa-2x" aria-hidden="true" onclick="toggle_menu()"></i>
     </nav>
     <section>
         <div class="section-content light">
@@ -87,5 +88,6 @@
         <span>&copy; 2025</span>
 
     </footer>
+    <script src="./js/menu.js"></script>
 </body>
 </html>
