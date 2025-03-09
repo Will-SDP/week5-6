@@ -60,10 +60,10 @@ section, main {
 }
 
 @media screen and (max-width: 768px) {
-    section {
+    section, main {
         height: auto;
     }
-    .section-content {
+    .section-content, .main-content {
         width: 100%;
         display: flex;
         flex-direction: column;
