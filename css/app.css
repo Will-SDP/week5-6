@@ -13,26 +13,30 @@ h1, h2 {
 }
 
 
-section {
+section, main {
     width: 100%; 
     height: 400px;
 
 }
 
-h1 {
-    text-align: center;
-    background-color: #2980b9;
-    color: #ecf0f1;
-}
 
 h3, p {
     padding: 8px;
 }
 
-.section-content {
+.section-content, .main-content {
     width: 90%;
     margin: 0 auto;
     height: 100%;
+}
+
+section, main {    
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.main-content {
+    background-color: #ecf0f1;
 }
 
 
@@ -88,7 +92,7 @@ h3, p {
 
 
 footer {
-    background-color: #2980b9;
+    background-color: #34495e;
     color: #ecf0f1;
     padding: 10px;
 
