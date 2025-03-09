@@ -12,15 +12,21 @@
     <title>Apollo Missions</title>
 </head>
 <body>
-    <div id="menu" class="hide">
-        <i class="fa fa-times fa-2x" aria-hidden="true" onclick="toggle_menu()"></i>
-        <a href="/"><i class="fa fa-home fa-2x" aria-hidden="true"></i> Home</a>
-        <a href="https://week1.coups.dev"><i class="fa fa-clock-o fa-2x" aria-hidden="true"></i> Week 1.8</a>
-        <a href="https://week1-10.coups.dev"><i class="fa fa-clock-o fa-2x" aria-hidden="true"></i> Week 1.10</a>
+    <div id="menu" class="hide" role="navigation">
+        <button class="menu-btn" tabindex="6">
+            <i class="fa fa-times fa-2x" aria-hidden="true" onclick="toggle_menu()" tabindex="-1"></i>
+        </button>        
+        <a href="/" tabindex="2"><i class="fa fa-home fa-2x" aria-hidden="true" tabindex="-1"></i> Home</a>
+        <a href="https://week1.coups.dev" tabindex="3"><i class="fa fa-clock-o fa-2x" aria-hidden="true" tabindex="-1"></i> Week 1.8</a>
+        <a href="https://week1-10.coups.dev" tabindex="4"><i class="fa fa-clock-o fa-2x" aria-hidden="true" tabindex="-1"></i> Week 1.10</a>
+        <a href="https://week2-4.coups.dev" tabindex="5"><i class="fa fa-clock-o fa-2x" aria-hidden="true" tabindex="-1"></i> Week 2.4</a>
     </div>    
     <nav>
         <div>
-            <i class="fa fa-bars fa-2x" aria-hidden="true" onclick="toggle_menu()"></i>
+            <button class="menu-btn" tabindex="1">
+                <i class="fa fa-bars fa-2x" aria-hidden="true" onclick="toggle_menu()" tabindex="-1"></i>
+            </button>
+            
         </div>        
     </nav>
     <section>
