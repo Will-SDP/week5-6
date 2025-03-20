@@ -43,11 +43,14 @@ nav i, #menu i {
 nav div {
     width: 90%;
     margin: 0 auto;
+    display: flex;
+    justify-content: right;
 }
 
 .menu-btn {
     background-color: #2c3e50;
     border: 0;
+    
 }
 
 .menu-btn:focus {
