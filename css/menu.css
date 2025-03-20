@@ -16,7 +16,6 @@ nav i, #menu i {
     /* top: 0;
     bottom: 0; */
     height: 100%;
-    z-index: 10;
     position: fixed;
     border-right: 2px solid #8e44ad;
     transition: 0.5s;
@@ -38,7 +37,7 @@ nav i, #menu i {
 }
 
 .hide {
-    transform: translate(-252px);
+    transform: translate(-100%);
 }
 
 nav div {
@@ -53,4 +52,14 @@ nav div {
 
 .menu-btn:focus {
     outline: 0.1em solid #8e44ad;
+}
+
+@media only screen and (max-width: 600px) {
+    #menu {
+        width: 100%;
+    }  
+
+    #menu a {
+        text-align: center;
+    }
 }
