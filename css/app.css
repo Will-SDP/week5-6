@@ -117,3 +117,14 @@ footer span {
 .hide {
     display: none;
 }
+
+input[type="submit"] {
+    background-color: #27ae60;
+    border: none;
+    padding: 8px;
+}
+
+input[type="number"] {
+    padding: 8px;
+    border: none;
+}
