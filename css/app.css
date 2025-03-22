@@ -20,7 +20,7 @@ section, main {
 }
 
 
-h3, p {
+h3, p, form {
     padding: 8px;
 }
 
@@ -102,4 +102,18 @@ footer span {
     display: block;
     text-align: center;
     padding: 8px;
+}
+
+#correct {
+    color: green;
+    font-weight: bold;
+}
+
+#incorrect {
+    color: red;
+    font-weight: bold;
+}
+
+.hide {
+    display: none;
 }
