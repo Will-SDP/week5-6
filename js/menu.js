@@ -1,7 +1,7 @@
 
-body = document.getElementsByTagName('body')
-var menu_visible = false
-menuBtns = document.querySelectorAll('.menu-btn')
+const body = document.getElementsByTagName('body')
+let menu_visible = false
+const menuBtns = document.querySelectorAll('.menu-btn')
 
 function toggle_menu(){
     menu_visible = !menu_visible
