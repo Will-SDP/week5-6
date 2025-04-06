@@ -128,3 +128,20 @@ input[type="number"] {
     padding: 8px;
     border: none;
 }
+
+.apod-image {
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+}
+
+#apod-text {
+    width: 90%; 
+    margin: 0 auto;
+}
+
+input[type="date"], label {
+    display: block;
+    width:90%;
+    margin: 10px auto;
+}

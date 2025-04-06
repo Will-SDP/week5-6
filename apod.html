@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="./css/app.css">
+    <link rel="stylesheet" href="./css/menu.css">
+    <title>Apollo Missions</title>
+</head>
+<body>
+    <div id="menu" class="hide" role="navigation">
+        <button class="menu-btn"aria-label="Close menu button" tabindex="0">
+            <i class="fa fa-times fa-2x" aria-hidden="true" onclick="toggle_menu()" tabindex="-1"></i>
+        </button>        
+        <a href="/" tabindex="0"><i class="fa fa-home fa-2x" aria-hidden="true" tabindex="-1"></i> Home</a>
+        <a href="apod.html" tabindex="0"><i class="fa fa-camera fa-2x" aria-hidden="true" tabindex="-1"></i> Photo of the day</a>
+        <a href="https://week1.coups.dev" tabindex="0"><i class="fa fa-clock-o fa-2x" aria-hidden="true" tabindex="-1"></i> Week 1.8</a>
+        <a href="https://week1-10.coups.dev" tabindex="0"><i class="fa fa-clock-o fa-2x" aria-hidden="true" tabindex="-1"></i> Week 1.10</a>
+        <a href="https://week2-4.coups.dev" tabindex="0"><i class="fa fa-clock-o fa-2x" aria-hidden="true" tabindex="-1"></i> Week 2.4</a>
+        <a href="https://week2-7.coups.dev" tabindex="0"><i class="fa fa-clock-o fa-2x" aria-hidden="true" tabindex="-1"></i> Week 2.7</a>
+        <a href="https://week4-4.coups.dev" tabindex="0"><i class="fa fa-clock-o fa-2x" aria-hidden="true" tabindex="-1"></i> Week 4.4</a>
+    </div>      
+    <nav>
+        <div>
+            <button class="menu-btn" aria-label="Menu button" tabindex="0">
+                <i class="fa fa-bars fa-2x" aria-hidden="true" onclick="toggle_menu()" tabindex="-1"></i>
+            </button>
+            
+        </div>        
+    </nav>
+    <main>
+        <h1>NASA Astronomy Photo of the Day</h1>
+        <label for="date">Select a different date</label>
+        <input type="date" id="date">
+        <p id="apod-text"></p>
+        <img class="apod-image" src="" alt="" id="apod-image">        
+    </main>
+    <script src="./js/menu.js"></script>
+    <script src="./js/apod.js"></script>
+</body>
+</html>
